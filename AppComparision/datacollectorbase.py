@@ -16,7 +16,7 @@ from selenium.webdriver.common.by import By
 
 
 class DataCollectorBase():
-    """同步数据采集器（含多线程存储）"""
+    
 
     def __init__(self):
         self.queue = queue.Queue()
