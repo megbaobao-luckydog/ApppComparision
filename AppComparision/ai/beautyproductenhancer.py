@@ -19,7 +19,7 @@ from typing import Dict, Any
 
 class BeautyProductEnhancer:
     def __init__(self):
-        openai.api_key = "sk-78874d584e774f33acdf731ec55ce04a"
+        openai.api_key = ""
         openai.base_url = "https://api.deepseek.com"
 
         self.COMMAND_TEMPLATE = """
